@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D00B791F1E9F1EB800B79AB2 /* PlanetarySystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00B791E1E9F1EB800B79AB2 /* PlanetarySystem.swift */; };
 		D02578761E9D7FE800F1D5D1 /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02578751E9D7FE800F1D5D1 /* Planet.swift */; };
 		D04303E91E96ED51000811B8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04303E81E96ED51000811B8 /* main.swift */; };
 /* End PBXBuildFile section */
@@ -24,6 +25,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D00B791E1E9F1EB800B79AB2 /* PlanetarySystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetarySystem.swift; sourceTree = "<group>"; };
 		D02578751E9D7FE800F1D5D1 /* Planet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
 		D04303E51E96ED51000811B8 /* SpaceAdventure */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SpaceAdventure; sourceTree = BUILT_PRODUCTS_DIR; };
 		D04303E81E96ED51000811B8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 			children = (
 				D04303E81E96ED51000811B8 /* main.swift */,
 				D02578751E9D7FE800F1D5D1 /* Planet.swift */,
+				D00B791E1E9F1EB800B79AB2 /* PlanetarySystem.swift */,
 			);
 			path = SpaceAdventure;
 			sourceTree = "<group>";
@@ -123,6 +126,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D00B791F1E9F1EB800B79AB2 /* PlanetarySystem.swift in Sources */,
 				D04303E91E96ED51000811B8 /* main.swift in Sources */,
 				D02578761E9D7FE800F1D5D1 /* Planet.swift in Sources */,
 			);
