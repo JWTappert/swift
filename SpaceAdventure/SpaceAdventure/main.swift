@@ -19,11 +19,7 @@ let planet_data: [String: String] = [
     "Neptune":  "Neptune is the eighth planet from the Sun"
 ]
 
-var planets = [Planet]()
-
-for planet in planet_data {
-    planets.append(Planet(name: planet.key, description: planet.value))
-}
+let planets = planet_data.map { Planet(name: $0, description: $1) }
 
 let name = "solarSystem"
 let desc = "Home"
